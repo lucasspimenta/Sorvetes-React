@@ -1,0 +1,104 @@
+/* Fundo geral */
+body {
+  background-color: #ffeef2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container principal */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Título principal */
+h2 {
+  color: #cc3366;
+  font-weight: bold;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: #cc3366;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b32d59;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
+}
+
+.btn-outline-primary {
+  border-color: #cc3366;
+  color: #cc3366;
+}
+
+.btn-outline-primary:hover {
+  background-color: #cc3366;
+  color: white;
+}
+
+.btn-outline-danger {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+/* Cabeçalho do modal */
+.modal-header,
+.modal-footer {
+  background-color: #fce8ed;
+}
+
+/* Tabela */
+.table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+}
+
+.table thead {
+  background-color: #fcdde2;
+  color: #cc3366;
+  font-weight: bold;
+}
+
+.table tbody tr:hover {
+  background-color: #fff2f5;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
